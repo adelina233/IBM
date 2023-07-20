@@ -27,7 +27,7 @@ public class Main {
                 .show(100);
         saveData(dataset,"PL","Polonia");
         saveData(dataset,"FR","Franta");
-        saveData(dataset,"ES","Belgia");
+        saveData(dataset,"BE","Belgia");
     }
 
     public static void saveData(Dataset<Row> dataset, String countryCode, String tableName) {
